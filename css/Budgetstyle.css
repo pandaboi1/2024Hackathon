@@ -6,8 +6,8 @@
 .greenborder {
     border: 5px solid rgb(57, 104, 70); /* Adds a black border of 2 pixels */
     background: rgb(150, 191, 150);
-    padding: 25px; /* Optional: Adds space inside the border */
-    margin: 40px 50px; /* Optional: Adds space above and below each paragraph */
+    margin: 25px; /* Optional: Adds space inside the border */
+    padding: 50px 50px; /* Optional: Adds space above and below each paragraph */
     border-radius: 15px; /* Rounds the corners */
  }
 
