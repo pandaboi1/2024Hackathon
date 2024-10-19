@@ -16,6 +16,7 @@
                     - insurance
 
         - rent
-        -morgage
+        - morgage
         - 
+        debt calculator
 Formulas
