@@ -1,8 +1,13 @@
 # Hackaton 2024
 ## Edwin Serna, Jannette Carranza, Alexis Covarrubias, Ruby Lopez
 
+# Ideas
+## Track 1: Finance
 
-# whats up, broskiis --Jannette
+- budgeting calculator
 
+## Track 2: Sustainability
+- 
 
-hello chat what is up dog?
+## Track 3: Entrepreneurship
+- 
