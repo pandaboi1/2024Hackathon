@@ -1,5 +1,9 @@
-div {
+#div1{
+   display: flex; 
+   justify-content: center; 
 
+}
+.greenborder {
     border: 5px solid rgb(57, 104, 70); /* Adds a black border of 2 pixels */
     background: rgb(150, 191, 150);
     padding: 25px; /* Optional: Adds space inside the border */
@@ -23,10 +27,12 @@ div {
                 1px -1px 0 rgb(57, 104, 70),
                 -1px 1px 0 rgb(57, 104, 70),
                 1px 1px 0 rgb(57, 104, 70); /* Create an outline */
-    font-size: 300;
-    Margin: 100px 100px;
+    font-size: 500%;
+    Margin: 75px 50px;
  }
 
- img {
-    
+ #img1 {
+    width: 200px;
+    height: auto;
+    max-height: 75%;
  }
