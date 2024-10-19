@@ -1,13 +1,21 @@
 # Hackaton 2024
 ## Edwin Serna, Jannette Carranza, Alexis Covarrubias, Ruby Lopez
 
-# Ideas
+# Idea
 ## Track 1: Finance
 
 - budgeting calculator
 
-## Track 2: Sustainability
-- 
+# User inquries
+    - Pay per hour
+    - hours worked per week
+    - bills
+        -car payment: yes or no
+                    - monthly payment
+                    - interest rate
+                    - insurance
 
-## Track 3: Entrepreneurship
-- 
+        - rent
+        -morgage
+        - 
+Formulas
