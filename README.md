@@ -7,8 +7,10 @@
 - budgeting calculator
 
 # User inquries
-    - Pay per hour
-    - hours worked per week
+    - hourly rate
+    - hour worked per week
+        -calculate check total
+        -calculate deposit saving total
 
     how much should be in savings calculator
         - 

@@ -1,7 +1,11 @@
+#spaced{
+    padding-left: 12rem;
+    padding-right: 12rem;
+}
 .nav{
     display: flex;
     justify-content: space-around;
-    height: auto 20px;
+    height: auto;
     background-color: rgb(74, 134, 74);
 }
 .nav a {
@@ -17,8 +21,18 @@
 }
 
 
-.intro-to-budgeting-container{
-    padding-top: 70px;
+#into-img{
+    width: 35%;
+    height: auto;
+    max-height: 75%;
+    border: 2px solid #555;
+    border-radius: 15px;
+ }
+#intro-to-budgeting{
+    padding-top: 30px;
     text-align: 10px;
+}
 
+#zeroBased{
+    border-width: 1px;
 }
