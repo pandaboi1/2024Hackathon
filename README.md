@@ -9,6 +9,10 @@
 # User inquries
     - Pay per hour
     - hours worked per week
+
+    how much should be in savings calculator
+        - 
+    budget calculator
     - bills
         -car payment: yes or no
                     - monthly payment
@@ -18,5 +22,5 @@
         - rent
         - morgage
         - 
-        debt calculator
+    debt calculator
 Formulas
