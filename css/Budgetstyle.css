@@ -21,6 +21,7 @@
     font-size: x-large;
     padding: 25px; /* Optional: Adds space inside the border */
     margin: 30px 50px; /* Optional: Adds space above and below each paragraph */
+    text-align: left;
  }
 
  h1{
@@ -33,14 +34,15 @@
                 -1px 1px 0 rgb(57, 104, 70),
                 1px 1px 0 rgb(57, 104, 70); /* Create an outline */
     font-size: 500%;
-    Margin: 75px 50px;
+    Margin: 60px 10px;
  }
 
  #img1 {
-    width: 200px;
+    width: 185px;
     height: auto;
-    max-height: 75%;
+    max-height: 65%;
     border-radius: 50%; /* Makes the image circular */
     border: 2px solid rgb(130, 176, 138); /* Optional: Adds a border around the circle */
     object-fit:contain; /* Ensures the image fits within the circle without distortion */
- }
+    margin-bottom: 15px;
+}

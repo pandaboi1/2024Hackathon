@@ -32,16 +32,108 @@
     border-radius: 15px;
  }
 #intro-to-budgeting{
-    padding-top: 30px;
-    text-align: 10px;
+    border-width: 1px;
+    border: 2px solid #000; 
+    padding: 20px;          
+    margin: 50px;          
+    background-color:  rgb(255,255,255); 
+    border-radius: 5px; 
 }
 
+
+
+#zeroBased-img{
+    width: 45%;
+    height: auto;
+    max-height: 75%;
+    border: 2px solid #555;
+    border-radius: 15px;
+}
 #zeroBased{
     border-width: 1px;
+    border: 2px solid #000; /* Border style */
+    padding: 20px;          /* Space inside the box */
+    margin: 50px;          /* Space outside the box */
+    background-color:  rgb(255,255,255); /* Background color */
+    border-radius: 5px;    /* Rounded corners */
 }
-#zeroBase a{
-    text-decoration: none;
-    padding: ;
-    display: ;
-    font-size: 16px;
+
+
+#fifty-thirty-twenty-img{
+    width: 45%;
+    height: auto;
+    max-height: 75%;
+    border: 2px solid #555;
+    border-radius: 15px;
+}
+#fifty-thirty-twenty{
+    border-width: 1px;
+    border: 2px solid #000; 
+    padding: 20px;          
+    margin: 50px;          
+    background-color:  rgb(255,255,255); 
+    border-radius: 5px;    
+}
+
+
+#envelopeSystem-img{
+    width: 45%;
+    height: auto;
+    max-height: 75%;
+    border: 2px solid #555;
+    border-radius: 15px;
+}
+#envelopeSystem{
+    border-width: 1px;
+    border: 2px solid #000; 
+    padding: 20px;          
+    margin: 50px;          
+    background-color:  rgb(255,255,255);
+    border-radius: 5px;    
+}
+
+
+#payYourselfFirst-img{
+    width: 45%;
+    height: auto;
+    max-height: 75%;
+    border: 2px solid #555;
+    border-radius: 15px;
+}
+#payYourselfFirst{
+    border-width: 1px;
+    border: 2px solid #000; 
+    padding: 20px;          
+    margin: 50px;          
+    background-color:  rgb(255,255,255); 
+    border-radius: 5px;
+}
+
+
+#priorityBased-img{
+    width: 45%;
+    height: auto;
+    max-height: 75%;
+    border: 2px solid #555;
+    border-radius: 15px;
+}
+#priorityBased{
+    border-width: 1px;
+    border: 2px solid #000; 
+    padding: 20px;          
+    margin: 50px;          
+    background-color:  rgb(255,255,255); 
+    border-radius: 5px;
+}
+h2{
+    text-align: center;
+    color:rgb(150, 191, 159);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 
+                -1px -1px 0 rgb(57, 104, 70),
+                1px -1px 0 rgb(57, 104, 70),
+                -1px 1px 0 rgb(57, 104, 70),
+                1px 1px 0 rgb(57, 104, 70); /* Create an outline */
+    font-size: 300%;
+    Margin: 60px 10px;
 }
