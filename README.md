@@ -30,6 +30,15 @@ Helping users calculate the expenses based on their income in a simple way that 
 - 
 - 
 
+# How to budget
+This webpage helps you learn about budgeting and manage your money. It starts with a main title, "Budgeting," and some easy-to-understand text. There's a picture of a money tree to show growth and financial health.
+
+The content is split into sections where you can put in your own numbers for needs (must-have expenses), wants (nice-to-have stuff), and savings. This helps you think about your spending habits and gives instant feedback. There are also pictures to explain needs, wants, and savings better.
+
+You can use calculators to see how your expenses add up. The page explains what needs and wants are and why saving is important.
+
+Finally, there are tips on different budgeting methods and more financial advice. This webpage combines learning with tools to help you manage your money and understand budgeting better.
+
 # Financial Terminology
 This section helps you understand and manage your money better. Many people find budgeting and financial planning hard, but knowing these things can really help your finances. Whether you're just starting or want to improve, this resource aims to make learning about finances easy.
 
@@ -50,5 +59,3 @@ Credit is borrowing money with a promise to pay it back later. It helps you buy 
 
 Connecting Budgeting and Credit
 The page explains how budgeting and credit work together to keep your finances healthy. Good budgeting can help you manage debt and improve your credit score. Understanding both concepts helps you adopt good financial habits, take control of your finances, and make informed decisions. This resource is a step toward better financial literacy.
-
-#

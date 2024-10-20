@@ -113,6 +113,9 @@ section {
   transform: translate(-50%, -50%);
   font-size: 75px;
   font-family: 'Courier New', monospace;
+  font-weight: 950;
+  color: rgb(30, 144, 15);
+  text-shadow: 2px 2px 4px #000000;
   white-space: nowrap; /* Prevent text from wrapping */
   overflow: hidden;    /* Hide overflow */
   text-overflow: ellipsis; /* Add ellipsis for overflow text */

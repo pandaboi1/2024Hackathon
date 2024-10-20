@@ -83,10 +83,10 @@ function calculateAll() {
 
     //Display if if-else statements
     //for needs
-    if (NeedsTotal() > Needs(number)) {
+    if (NeedsTotal(total1) > Needs(number)) {
         document.getElementById("exceedsMessage").innerText = "It seems that your total execeeds the dedicated amount of spending. Lets see if we can make some adjustments!";
     } 
-    else if(NeedsTotal() <= Needs(number)){
+    else if(NeedsTotal(total1) <= Needs(number)){
         document.getElementById("exceedsMessage").innerText = "Awesome, you're on the right track, your total should not exceed you dedicated amount!";
     }
     else {
