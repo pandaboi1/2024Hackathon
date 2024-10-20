@@ -1,12 +1,12 @@
-console.log("working")
+console.log("working session")
 
-const menuButton = document.getElementById('anchor')
+const menuButton = document.getElementById(' ')
 
 menuButton.addEventListener('click', () =>{
     console.log("click")
 })
 
-document.getElementById('colorButton').addEventListener('click', function() {
+document.getElementById(' ').addEventListener('click', function() {
     document.getElementById('colorText').style.color = 'red'
     document.getElementById('colorText').style.fontSize = '64px'
 });

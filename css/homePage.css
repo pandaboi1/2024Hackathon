@@ -22,6 +22,15 @@ p{
     border-radius: 10px;
 }
 
+#fonts{
+    font-family: 'Times New Roman', Times, serif;
+}
+
 button:hover {
     background-color: rgb(32, 96, 32);
+}
+
+#colored{
+    background-color: rgb(109, 165, 110);
+    color: wheat;
 }

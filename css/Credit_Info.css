@@ -1,0 +1,24 @@
+.nav-links{
+    background-color: rgb(103, 204, 90);
+    overflow: hidden;
+}
+
+.nav-links a {
+    float: left;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-links a:hover {
+    background-color: rgb(112, 172, 102);
+    color: black;
+
+}
+
+.nav-links a.active{
+    background-color: aquamarine;
+    color: white;
+}
