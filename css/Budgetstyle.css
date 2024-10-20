@@ -20,7 +20,7 @@
     color: white;
     font-size: x-large;
     padding: 25px; /* Optional: Adds space inside the border */
-    margin: 30px 50px; /* Optional: Adds space above and below each paragraph */
+    margin: 30px 30px; /* Optional: Adds space above and below each paragraph */
     text-align: left;
  }
 
@@ -37,6 +37,12 @@
     Margin: 60px 10px;
  }
 
+ h2{
+   background:rgb(150, 191, 159);
+   border-radius: 50px;
+ }
+
+
  #img1 {
     width: 185px;
     height: auto;
@@ -45,4 +51,28 @@
     border: 2px solid rgb(130, 176, 138); /* Optional: Adds a border around the circle */
     object-fit:contain; /* Ensures the image fits within the circle without distortion */
     margin-bottom: 15px;
+}
+
+#reg {
+   width: 300px;
+   height: auto;
+   max-height: 65%;
+   display: block;
+   margin: 0 auto;
+   border-radius: 50%; /* Makes the image circular */
+}
+
+#btn{
+   background-color: rgb(112, 182, 112);
+   color: white;
+   cursor: pointer;
+   border-width: 0px;
+   padding-left: 15px;
+   padding-right: 15px;
+   border-radius: 10px;
+   margin-bottom: 200px;
+}
+
+#btn:hover {
+   background-color: rgb(48, 122, 48);
 }
