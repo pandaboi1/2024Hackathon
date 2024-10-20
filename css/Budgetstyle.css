@@ -24,6 +24,19 @@
     text-align: left;
  }
 
+#num1{
+   color: rgb(0, 0, 0);
+   font-size: x-large;
+   margin: 30px 30px; /* Optional: Adds space above and below each paragraph */
+   text-align: center;
+}
+
+#exceedsMessage{
+   color: rgb(131, 203, 232);
+   margin: 30px 30px; /* Optional: Adds space above and below each paragraph */
+   text-align: center;
+}
+
  h1{
     text-align: center;
     color:rgb(150, 191, 159);
@@ -34,7 +47,7 @@
                 -1px 1px 0 rgb(57, 104, 70),
                 1px 1px 0 rgb(57, 104, 70); /* Create an outline */
     font-size: 500%;
-    Margin: 60px 10px;
+    Margin: 60px 0px;
  }
 
  h2{
@@ -44,11 +57,10 @@
 
 
  #img1 {
-    width: 185px;
+    width: 200px;
     height: auto;
     max-height: 65%;
     border-radius: 50%; /* Makes the image circular */
-    border: 2px solid rgb(130, 176, 138); /* Optional: Adds a border around the circle */
     object-fit:contain; /* Ensures the image fits within the circle without distortion */
     margin-bottom: 15px;
 }
@@ -60,6 +72,7 @@
    display: block;
    margin: 0 auto;
    border-radius: 50%; /* Makes the image circular */
+   object-fit:contain; /* Ensures the image fits within the circle without distortion */
 }
 
 #btn{
