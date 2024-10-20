@@ -26,16 +26,19 @@
 
 #num1{
    color: rgb(0, 0, 0);
-   font-size: x-large;
+   
    margin: 30px 30px; /* Optional: Adds space above and below each paragraph */
    text-align: center;
 }
 
-#exceedsMessage{
-   color: rgb(131, 203, 232);
+#num2{
+   color: white;
+   background:  rgb(150, 191, 150);
    margin: 30px 30px; /* Optional: Adds space above and below each paragraph */
    text-align: center;
+   border-radius: 10px;
 }
+
 
  h1{
     text-align: center;

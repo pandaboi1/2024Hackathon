@@ -82,10 +82,6 @@ function calculateAll2() {
     NeedsTotal(number_n);
     WantsTotal(number_w);
     SavingsTotal(number_s);
-}
-
-
-
 
 //Display if if-else statements
 
@@ -98,4 +94,11 @@ else if ((NeedsTotal(number_n) < Needs(number))&&(WantsTotal(number_w)< Wants(nu
 else {
     document.getElementById("exceedsMessage").innerText = "Oh no! It seems like something went wrong, Please enter only positive numbers.";  // Clear the message if not exceeding
 }
+
+}
+
+
+
+
+
 
