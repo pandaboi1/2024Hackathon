@@ -23,13 +23,6 @@ Helping users calculate the expenses based on their income in a simple way that 
 - morgage
 - 
 
-## Debt calculator
-- 
-
-### Formulas:
-- 
-- 
-
 # How to budget
 This webpage helps you learn about budgeting and manage your money. It starts with a main title, "Budgeting," and some easy-to-understand text. There's a picture of a money tree to show growth and financial health.
 
