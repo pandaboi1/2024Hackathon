@@ -9,192 +9,183 @@
     <link rel ="stylesheet" href = "/css/Budgetstyle.css">
 </head>
 
+<div class="nav">
+  <a href="/static/index.html" style="background: rgb(0, 178, 53);">Home Page</a>
+  <a href="#beginning" class="">Start</a>
+  <a href="#reg">Spending needs, Wants,& Savings</a>
+  <a href="#numberInput">Calculator</a>
+  <a href="#"></a>
+  <a href="#"></a>
+  <a href="#"></a>
+</div>
 
 <body id="space">  
-  <a href="/static/index.html" style="background: rgb(220, 255, 230);">Home Page</a>
     <h1>Budgeting:</h1>
     <h3>Start learning how to handle money!</h3>
-    <div id="div1" >
+    <div id="tree-img" >
         <img id = "img1" src="https://media.istockphoto.com/id/165802164/vector/money-tree-in-hands.jpg?s=612x612&w=0&k=20&c=qi9gLuSqIGd1xT8kf-rNsponKXTJ-m16Axv4dKBu3cM=" class="centered-image">
     </div>
 
     <div class="greenborder">
       <div class ="container">
         <div class =" text-group">
-          <span class="highlight"><img src = "https://www.pikpng.com/pngl/b/521-5218560_48-paycheck-cartoon-clipart.png" alt="Example Image" class="image"></span>
-          <p>PayCheck after deducted taxes: </p>
-          <label for ="numberInput">Enter a number:</label>
-          <input type="number" id="numberInput" placeholder="Enter a number">
-          <button onclick="calculateAll()">Done!</button>  <!-- Button to trigger the calculation -->
+          <span class="highlight">
+            <img src = "https://www.pikpng.com/pngl/b/521-5218560_48-paycheck-cartoon-clipart.png" alt="Example Image" class="image">
+          </span><br><br>
+          <h2 style="display: flex;    justify-content: center;">PayCheck after deducted taxes: </h2><br>
+          <div style="display: flex; justify-content: center;">
+            <label for ="numberInput">Enter a number:</label>
+            <input type="number" id="numberInput" placeholder="Enter a number">
+            <button onclick="calculateAll()">Done!</button>  <!-- Button to trigger the calculation -->
+          </div>
         </div>
       </div>
-   </div>
+    </div>
     
     <div class="container text-center">
-        <div class="row" class="greenborder">
-            <div class="col">
-                <div class="greenborder">
-                  <div class="container">
-                    <div class="text-group">
-                      <span class="highlight"><img src = "https://png.pngtree.com/png-vector/20240314/ourmid/pngtree-female-character-thinking-on-spending-money-png-image_11950825.png" alt="Example Image" class="image"></span>
-                      <p>Needs: 
-                        <span id="nresult" class="result"></span></p>
-                      <p>Wants: 
-                        <span id="wresult" class="result"></span></p>
-                      <p>Savings: 
-                        <span id="sresult" class="result"></span></p>
-
-                      <script src="/calculations/BudgetCalc.js"></script>
-                    </div>
-                  </div>
-                </div>
+      <div class="row" class="greenborder">
+        <div class="greenborder">
+          <div class="container">
+            <div class="text-group">
+              <span class="highlight">
+                <img src = "https://png.pngtree.com/png-vector/20240314/ourmid/pngtree-female-character-thinking-on-spending-money-png-image_11950825.png" alt="Example Image" class="image">
+              </span>
+              <p>Needs: <span id="nresult" class="result"></span></p>
+              <p>Wants: <span id="wresult" class="result"></span></p>
+              <p>Savings: <span id="sresult" class="result"></span></p>
+              <script src="/calculations/BudgetCalc.js"></script>
             </div>
+          </div>
+        </div>
+      </div>
             
-            <p id ="num1">Spending Needs are the expenses on items that are a must in your everyday lives.
-                   A few examples can be toilet paper, toothpaste, gas, rent, car insurance, phone bill, light and water bill, and much more.</p>
-            <img id = "reg" src ="https://www.nslcity.org/ImageRepository/Document?documentID=1242" class="centered-image">
-            <p id ="num1"> Want expenses are purchasing items that are not necassary, items that you do not need to ensure a healthy and happy life style.
-             For example: video games, legos, amongst other things and if they are not vital for your healthy survival it is a want.</p>
-              <img id ="reg" src = "https://i.ytimg.com/vi/TP1gPF6e3UM/maxresdefault.jpg" class ="centered-image">
-           <p id ="num1"> Savings is money put aside for many reasons. These reasons can be to ensure you have money in case of an emergency; 
-            to save up for a vacation; to have enough money to retire and live comfortably; and even just to have money for financial stability.</p>
-            <img id ="reg" src= "https://www.idfcfirstbank.com/content/dam/idfcfirstbank/images/blog/importance-of-having-savings-717x404.jpg" class="center-image"> 
-        </div>          
+      <p id ="num1">Spending Needs are the expenses on items that are a must in your everyday lives.
+        A few examples can be toilet paper, toothpaste, gas, rent, car insurance, phone bill, light and water bill, and much more.
+      </p>
+      <img id = "reg" src ="https://www.nslcity.org/ImageRepository/Document?documentID=1242" class="centered-image">
+      <p id ="num1"> Want expenses are purchasing items that are not necassary, items that you do not need to ensure a healthy and happy life style. For example: video games, legos, amongst other things and if they are not vital for your healthy survival it is a want.
+
+      </p>
+      <img id ="reg" src = "https://i.ytimg.com/vi/TP1gPF6e3UM/maxresdefault.jpg" class ="centered-image">
+      <p id ="num1"> Savings is money put aside for many reasons. These reasons can be to ensure you have money in case of an emergency; 
+            to save up for a vacation; to have enough money to retire and live comfortably; and even just to have money for financial stability.
+      </p>
+      <img id ="reg" src= "https://www.idfcfirstbank.com/content/dam/idfcfirstbank/images/blog/importance-of-having-savings-717x404.jpg" class="center-image">
+    </div> <br><br>          
+    <div class="container text-center">
+      <div class="row">
+        <div class="card">
+          <div class="card-header">
+            <div>Essentials</div>
+          </div>
+          <div class="card-body">
+          <h2 class="card-title">Needs Budget</h2>
+          <p id="num1" class="card-text">Enter your own personal<br><i><b>expenses</b></i> that are a <i><b>must have</b></i>.</p>
+          <label for ="numberInput1">Housing:</label>
+          <input style="margin-right: 3rem; margin-bottom: 1rem;" type="number" id="numberInput1" placeholder="Enter a number">
+                          
+          <label for ="numberInput2">Transportation:</label>
+          <input type="number" id="numberInput2" placeholder="Enter a number">
+          <br>
+          <label for ="numberInput3">Groceries:</label>
+          <input style="margin-right: 3rem;" type="number" id="numberInput3" placeholder="Enter a number">
+                          
+          <label for ="numberInput4">Enter a number:</label>
+          <input type="number" id="numberInput4" placeholder="Enter a number">
+        </div>
+      </div>
     </div>
+    <br>
+    
+    <div class="col">
+      <div class="colom">
+        <h2>Wants Budget</h2>
+        <p id="num1">Enter the <br><i><b>expenses</b></i> that are <i><b>not important</b></i>, items that you <i><b>want</b></i>.</p>
+        <label for ="numberInput5">Games:</label>
+        <input type="number" id="numberInput5" placeholder="Enter a number">
+                      
+        <label for ="numberInput6">Toys:</label>
+        <input type="number" id="numberInput6" placeholder="Enter a number">
+          
+        <label for ="numberInput7">Miscallaneous:</label>
+        <input type="number" id="numberInput7" placeholder="Enter a number">
 
-  
-
-            <div class="container text-center">
-                <div class="row">
-                  <div class="col">
-                    <div class="card">
-                        <div class="card-header">
-                          <div class="colored">
-                            Essentials
-                          </div>
-                        </div>
-                        <div class="card-body">
-                          <h2 class="card-title">Needs Budget</h2>
-                          <p id="num1" class="card-text">Enter your own personal<br><i><b>expenses</b></i> that are a <i><b>must have</b></i>.</p>
-                          <label for ="numberInput1">Housing:</label>
-                          <input type="number" id="numberInput1" placeholder="Enter a number">
-
-                          <label for ="numberInput2">Transportation:</label>
-                          <input type="number" id="numberInput2" placeholder="Enter a number">
-              
-                          <label for ="numberInput3">Groceries:</label>
-                          <input type="number" id="numberInput3" placeholder="Enter a number">
-              
-                          <label for ="numberInput4">Enter a number:</label>
-                          <input type="number" id="numberInput4" placeholder="Enter a number">
-                        </div>
-                      </div>
-                  </div>
-
-                  <div class="col">
-                    <div class="card">
-                        <div class="card-header" class="colored">
-                            Fun Money 
-                        </div>
-                        <div class="card-body">
-                          <h2 class="card-title">Wants Budget</h2>
-                          <p id="num1" class="card-text">Enter the <br><i><b>expenses</b></i> that are <i><b>not important</b></i>, items that you <i><b>want</b></i>.</p>
-                          <label for ="numberInput5">Games:</label>
-                          <input type="number" id="numberInput5" placeholder="Enter a number">
+      </div><br>
+      <div class="card">
+        <div class="card-header">Savings</div>
+        <div class="card-body">
+          <h2 class="card-title">Savings Budget</h2>
+            <p id="num1" class="card-text">Enter how much money is <i><b>put aside</b></i> for <i><b>emergencies</b></i>, <i><b>retirement</b></i>, and <i><b>financial goals</b></i> amongst other things.</p>
+            <label for ="numberInput8">Emergencies:</label>
+            <input type="number" id="numberInput8" placeholder="Enter a number">
                           
-                          <label for ="numberInput6">Toys:</label>
-                          <input type="number" id="numberInput6" placeholder="Enter a number">
+            <label for ="numberInput9">vacation:</label>
+            <input type="number" id="numberInput9" placeholder="Enter a number">
               
-                          <label for ="numberInput7">Miscallaneous:</label>
-                          <input type="number" id="numberInput7" placeholder="Enter a number">
+            <label for ="numberInput10">financial plan:</label>
+            <input type="number" id="numberInput10" placeholder="Enter a number">
 
-                        </div>
-                      </div>
-                  </div>
+          </div>
+        </div>
+      </div> <br>
+    <button id="btn1" onclick="calculateAll()">Calculate!🤯</button>  <!-- Button to trigger the calculation -->
+    </div>
+  </div>  info #calculator class=" "
 
-                  <div class="col">
-                    <div class="card">
-                        <div class="card-header" class="colored">
-                          Savings 
-                        </div>
-                        <div class="card-body" >
-                          <h2 class="card-title">Savings Budget</h2>
-                          <p id="num1" class="card-text">Enter how much money is <i><b>put aside</b></i> for <i><b>emergencies</b></i>, <i><b>retirement</b></i>, and <i><b>financial goals</b></i> amongst other things.</p>
-                          <label for ="numberInput8">Emergencies:</label>
-                          <input type="number" id="numberInput8" placeholder="Enter a number">
-                          
-                          <label for ="numberInput9">vacation:</label>
-                          <input type="number" id="numberInput9" placeholder="Enter a number">
-              
-                          <label for ="numberInput10">financial plan:</label>
-                          <input type="number" id="numberInput10" placeholder="Enter a number">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <div class="card">
+            <div class="card-header">
+              <div> Essentials </div>
+            </div>
+            <div class="card-body">
+              <p id="num2" class="card-text">Based on the outcome of your total expenses, you can see were you would need to start adjusting your budget!</p>
+              <p id="num1">Budget: <span id="nresult" class="result"></span></p>
+              <p id="num1">Needs Total: <span id="ntresult" class="result"></span></p>
+              <p id="num1"><span id="exceedsMessage" class="message"></span></p>
+              <script src="/calculations/BudgetCalc.js"></script>
+            </div>
+          </div>
+      </div>
 
-                        </div>
-                      </div>
-                  </div>
-                </div>
-                <button id="btn1" onclick="calculateAll()">Calculate!🤯</button>  <!-- Button to trigger the calculation -->
-            </div>  
-            <div>
-              
-            </div>  
+    <div class="col">
+      <div class="card">
+        <div class="card-header" >Fun Money</div>
+          <div class="card-body">
+            <p id="num2" class="card-text">A tip for savings is to aim for three to six months' worth of living expenses in an emergency fund.</p>
+            <p id ="num1">Budget: <span id="wresult" class="result"></span></p>
+            <p id="num1">Wants Total: <span id="wtresult" class="result"></span></p>
+            <p id ="num1"><span id="belowMessage" class="message"></span></p>
+            <script src="/calculations/BudgetCalc.js"></script>
+          </div>
+        </div>
+      </div>
 
-            <div class="container text-center">
-              <div class="row">
-                <div class="col">
-                  <div class="card">
-                      <div class="card-header">
-                        <div class="colored">
-                          Essentials
-                        </div>
-                      </div>
-                      <div class="card-body">
-                        <p id="num2" class="card-text">Based on the outcome of your total expenses, you can see were you would need to start adjusting your budget!</p>
-                        <p id="num1">Budget: <span id="nresult" class="result"></span></p>
-                        <p id="num1">Needs Total: <span id="ntresult" class="result"></span></p>
-                        <p id="num1"><span id="exceedsMessage" class="message"></span></p>
-                        <script src="/calculations/BudgetCalc.js"></script>
-                      </div>
-                    </div>
-                </div>
+      <div class="col">
+        <div class="card">
+          <div class="card-header"> Savings </div>
+            <div class="card-body">
+              <p id="num2" class="card-text">Did you know that in America almost 3 in 10 (29%) of people have some savings, but not enough to cover three months' expenses.</p>
+              <p id="num1">Budget: <span id="sresult" class="result"></span></p>
+              <p id="num1">Savings Total: <span id="stresult" class="result"></span></p>
+              <p id="num1"><span id="saveMessage" class="message"></span></p>
 
-                <div class="col">
-                  <div class="card">
-                      <div class="card-header" class="colored">
-                          Fun Money
-                      </div>
-                      <div class="card-body">
-                        <p id="num2" class="card-text">A tip for savings is to aim for three to six months' worth of living expenses in an emergency fund.</p>
-                        <p id ="num1">Budget: <span id="wresult" class="result"></span></p>
-                        <p id="num1">Wants Total: <span id="wtresult" class="result"></span></p>
-                        <p id ="num1"><span id="belowMessage" class="message"></span></p>
-                        <script src="/calculations/BudgetCalc.js"></script>
-                      </div>
-                    </div>
-                </div>
+              <script src="/calculations/BudgetCalc.js"></script>
 
-                <div class="col">
-                  <div class="card">
-                      <div class="card-header" class="colored">
-                        Savings
-                      </div>
-                      <div class="card-body" >
-                        <p id="num2" class="card-text">Did you know that in America almost 3 in 10 (29%) of people have some savings, but not enough to cover three months' expenses.</p>
-                        <p id="num1">Budget:<span id="sresult" class="result"></span></p>
-                        <p id="num1">Savings Total:<span id="stresult" class="result"></span></p>
-                        <p id="num1"><span id="saveMessage" class="message"></span></p>
-
-                        <script src="/calculations/BudgetCalc.js"></script>
-
-                      </div>
-                    </div>
-                </div>
-                
-              </div>
-          </div>  
-          <div>
-            <p id="num1">There are many different methods that can help you budget properly. Click the button below to find the right one for you!</p>
-            <a id = "btn" class="btn btn-primary" href="/static/Finance_Tips.html" role="button">Know More!🧠</a>
-          </div>  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+    
+    <div>
+      <p id="num1">There are many different methods that can help you budget properly. 
+      <br><b>Click the button below</b> to find the right one for you!</p>
+      
+      <div style="display: flex; justify-content: center;">
+        <a id="btn" class="btn btn-primary" href="/static/Finance_Tips.html" role="button">Know More!🧠</a>
+      </div>
+    </div>  
 
 </body>

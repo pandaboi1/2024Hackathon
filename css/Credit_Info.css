@@ -5,10 +5,11 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Courier New', monospace;
 }
 
 html {
@@ -17,6 +18,7 @@ html {
 
 p {
   color: rgb(85, 85, 85);
+  
 }
 
 h3 {
@@ -26,6 +28,7 @@ h3 {
   color: rgb(15, 138, 15);
   border-bottom: 6px solid rgb(5, 118, 35);
   background-color: rgb(180, 249, 160);
+  font-family: 'Courier New', monospace;
 }
 
 
@@ -36,7 +39,8 @@ nav {
   overflow: hidden;
   justify-content: space-around;
   height: auto;
-  background: rgb(0,178,53);
+  background: rgb(74, 134, 74);
+  font-family: 'Courier New', monospace;
 }
 
 .nav-links a {
@@ -50,7 +54,7 @@ nav {
 }
 
 .nav-links a:hover {
-    background-color: rgb(62, 104, 55);
+    background-color: rgb(112,182,112); 
     color: black;
 
 }
@@ -59,6 +63,8 @@ nav {
     background-color: aquamarine;
     color: white;
 }
+
+
 
 
 section {
@@ -75,18 +81,29 @@ section {
 
 
 
+
+
+
+
 .image{
+
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
   height: 50%;
+
+  filter: blur(5px);
+  -webkit-filter: blur(2px);
+  
+
+
 }
 
 .container {
   position: relative;
   text-align: center;
-  color: white;
+  color: rgb(30, 144, 15);
 }
 
 .centered {
@@ -94,4 +111,79 @@ section {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-size: 75px;
+  font-family: 'Courier New', monospace;
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden;    /* Hide overflow */
+  text-overflow: ellipsis; /* Add ellipsis for overflow text */
+}
+
+
+
+
+
+
+
+#image-container{
+  width: 45%;
+  height: auto;
+  max-height: 75%;
+  border: 10px solid white;
+  border-radius: 15px;
+}
+
+#budgeting{
+  border-width: 1px;
+  border: 2px solid #0c6614;  
+  padding: 20px;           
+  margin: 50px;           
+  background-color:  rgb(255,255,255);  
+  border-radius: 5px;
+}
+
+
+#understandingcredit{
+  border-width: 1px;
+  border: 2px solid #0c6614;  
+  padding: 20px;           
+  margin: 50px;           
+  background-color:  rgb(255,255,255);  
+  border-radius: 5px;
+}
+
+#why{
+  border-width: 1px;
+  border: 2px solid #0c6614;  
+  padding: 20px;           
+  margin: 50px;           
+  background-color:  rgb(255,255,255);  
+  border-radius: 5px;
+}
+
+
+.image1{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+
+  filter: blur(5px);
+  -webkit-filter: blur(2px);
+
+}
+
+.container1 {
+  position: relative;
+  text-align: center;
+  color: rgb(30, 144, 15);
+}
+
+#image-container1{
+  width: 15%;
+  height: auto;
+  max-height: 25%;
+  border: 10px solid white;
+  border-radius: 15px;
 }

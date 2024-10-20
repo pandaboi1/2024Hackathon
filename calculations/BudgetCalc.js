@@ -60,6 +60,7 @@ function SavingsTotal() {
     document.getElementById("stresult").innerText = total3.toFixed(2);
 }
 
+
 // Function to perform all calculations and display results at once
 function calculateAll() {
     let number = getInputValue();  // Get input value once
@@ -82,10 +83,10 @@ function calculateAll() {
 
     //Display if if-else statements
     //for needs
-    if (number_n > Needs(number)) {
+    if (NeedsTotal() > Needs(number)) {
         document.getElementById("exceedsMessage").innerText = "It seems that your total execeeds the dedicated amount of spending. Lets see if we can make some adjustments!";
     } 
-    else if(number_n < Needs(number)){
+    else if(NeedsTotal() <= Needs(number)){
         document.getElementById("exceedsMessage").innerText = "Awesome, you're on the right track, your total should not exceed you dedicated amount!";
     }
     else {
@@ -94,10 +95,10 @@ function calculateAll() {
 
 
     //For wants
-    if (number_n > Wants(number)) {
+    if (WantsTotal() > Wants(number)) {
         document.getElementById("belowMessage").innerText = "It seems that your total execeeds the dedicated amount of spending. Lets see if we can make some adjustments!";
     } 
-    else if(number_n < Wants(number)){
+    else if(WantsTotal() <= Wants(number)){
         document.getElementById("belowMessage").innerText = "Awesome, you're on the right track, your total should not exceed you dedicated amount!";
     }
     else {
@@ -105,10 +106,10 @@ function calculateAll() {
     }
 
     //for savings
-    if (number_n > Savings(number)) {
+    if (SavingsTotal() > Savings(number)) {
         document.getElementById("saveMessage").innerText = "It seems that your total execeeds the dedicated amount of spending. Lets see if we can make some adjustments!";
     } 
-    else if(number_n < Savings(number)){
+    else if(SavingsTotal() <= Savings(number)){
         document.getElementById("saveMessage").innerText = "Awesome, you're on the right track, your total should not exceed you dedicated amount!";
     }
     else {
