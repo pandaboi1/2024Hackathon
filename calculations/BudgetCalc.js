@@ -77,46 +77,8 @@ function calculateAll() {
     NeedsTotal(number_n);
     WantsTotal(number_w);
     SavingsTotal(number_s);
-
-
-    document.getElementById("btn1").addEventListener("click", function() {
-
-    //Display if if-else statements
-    //for needs
-    if (NeedsTotal(total1) > Needs(number)) {
-        document.getElementById("exceedsMessage").innerText = "It seems that your total execeeds the dedicated amount of spending. Lets see if we can make some adjustments!";
-    } 
-    else if(NeedsTotal(total1) <= Needs(number)){
-        document.getElementById("exceedsMessage").innerText = "Awesome, you're on the right track, your total should not exceed you dedicated amount!";
-    }
-    else {
-        document.getElementById("exceedsMessage").innerText = "Oh no! It seems like something went wrong, Please enter only positive numbers.";  // Clear the message if not exceeding
-    }
-
-
-    //For wants
-    if (WantsTotal() > Wants(number)) {
-        document.getElementById("belowMessage").innerText = "It seems that your total execeeds the dedicated amount of spending. Lets see if we can make some adjustments!";
-    } 
-    else if(WantsTotal() <= Wants(number)){
-        document.getElementById("belowMessage").innerText = "Awesome, you're on the right track, your total should not exceed you dedicated amount!";
-    }
-    else {
-        document.getElementById("belowMessage").innerText = "Oh no! It seems like something went wrong, Please enter only positive numbers.";  // Clear the message if not exceeding
-    }
-
-    //for savings
-    if (SavingsTotal() > Savings(number)) {
-        document.getElementById("saveMessage").innerText = "It seems that your total execeeds the dedicated amount of spending. Lets see if we can make some adjustments!";
-    } 
-    else if(SavingsTotal() <= Savings(number)){
-        document.getElementById("saveMessage").innerText = "Awesome, you're on the right track, your total should not exceed you dedicated amount!";
-    }
-    else {
-        document.getElementById("saveMessage").innerText = "Oh no! It seems like something went wrong, Please enter only positive numbers.";  // Clear the message if not exceeding
-    }
-})
 }
+
 
 
 
