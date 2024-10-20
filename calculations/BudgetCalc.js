@@ -21,16 +21,6 @@ function Savings(number) {
     document.getElementById("sresult").innerText = result.toFixed(2);
 }
 
-// Function to perform all calculations and display results at once
-function calculateAll() {
-    let number = getInputValue();  // Get input value once
-    // Perform all calculations
-    Needs(number);
-    Wants(number);
-    Savings(number);
-}
-
-
 //Need Total box additions:
 function NeedsTotal() {
     // Get values from the input fields
@@ -64,17 +54,21 @@ function SavingsTotal() {
     let input1 = parseFloat(document.getElementById("numberInput8").value) || 0;
     let input2 = parseFloat(document.getElementById("numberInput9").value) || 0;
     let input3 = parseFloat(document.getElementById("numberInput10").value) || 0;
-
     // Add the values together
     let total3 = input1 + input2 + input3;
-
     // Display the total result in the HTML
     document.getElementById("stresult").innerText = total3.toFixed(2);
 }
 
+// Function to perform all calculations and display results at once
+function calculateAll() {
+    let number = getInputValue();  // Get input value once
+    // Perform all calculations
+    Needs(number);
+    Wants(number);
+    Savings(number);
 
 //So everything appears at the same time
-function calculateAll2() {
     let number_n = NeedsTotal();  // Get input value once
     let number_w = WantsTotal();
     let number_s = SavingsTotal();
@@ -83,20 +77,45 @@ function calculateAll2() {
     WantsTotal(number_w);
     SavingsTotal(number_s);
 
-//Display if if-else statements
 
-if ((NeedsTotal(number_n) > Needs(number))&&(WantsTotal(number_w)> Wants(number))&&((SavingsTotal(number_s)>Savings(number)))) {
-    document.getElementById("exceedsMessage").innerText = "It seems that your total execeeds the dedicated amount of spending. Lets see if we can make some adjustments!";
-} 
-else if ((NeedsTotal(number_n) < Needs(number))&&(WantsTotal(number_w)< Wants(number))&&((SavingsTotal(number_s)<Savings(number)))){
-    document.getElementById("exceedsMessage").innerText = "Awesome, you're on the right track, your total should not exceed you dedicated amount!";
-}
-else {
-    document.getElementById("exceedsMessage").innerText = "Oh no! It seems like something went wrong, Please enter only positive numbers.";  // Clear the message if not exceeding
-}
+    document.getElementById("btn1").addEventListener("click", function() {
 
-}
+    //Display if if-else statements
+    //for needs
+    if (number_n > Needs(number)) {
+        document.getElementById("exceedsMessage").innerText = "It seems that your total execeeds the dedicated amount of spending. Lets see if we can make some adjustments!";
+    } 
+    else if(number_n < Needs(number)){
+        document.getElementById("exceedsMessage").innerText = "Awesome, you're on the right track, your total should not exceed you dedicated amount!";
+    }
+    else {
+        document.getElementById("exceedsMessage").innerText = "Oh no! It seems like something went wrong, Please enter only positive numbers.";  // Clear the message if not exceeding
+    }
 
+
+    //For wants
+    if (number_n > Wants(number)) {
+        document.getElementById("belowMessage").innerText = "It seems that your total execeeds the dedicated amount of spending. Lets see if we can make some adjustments!";
+    } 
+    else if(number_n < Wants(number)){
+        document.getElementById("belowMessage").innerText = "Awesome, you're on the right track, your total should not exceed you dedicated amount!";
+    }
+    else {
+        document.getElementById("belowMessage").innerText = "Oh no! It seems like something went wrong, Please enter only positive numbers.";  // Clear the message if not exceeding
+    }
+
+    //for savings
+    if (number_n > Savings(number)) {
+        document.getElementById("saveMessage").innerText = "It seems that your total execeeds the dedicated amount of spending. Lets see if we can make some adjustments!";
+    } 
+    else if(number_n < Savings(number)){
+        document.getElementById("saveMessage").innerText = "Awesome, you're on the right track, your total should not exceed you dedicated amount!";
+    }
+    else {
+        document.getElementById("saveMessage").innerText = "Oh no! It seems like something went wrong, Please enter only positive numbers.";  // Clear the message if not exceeding
+    }
+})
+}
 
 
 

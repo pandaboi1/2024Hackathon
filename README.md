@@ -29,10 +29,3 @@ Helping users calculate the expenses based on their income in a simple way that 
 ### Formulas:
 - 
 - 
-
-
-WE MIGHT NOT NEED THIS BOTTOM PART
-vvvvvvvvvvvvvvvvvvvvvvvvv
-### Build Command for Server:
-To start server run ```nodemon .\session.js``` in terminal while in the path of **server.js**
-Go to URL ```localhost:8080/homePage.html

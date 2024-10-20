@@ -58,6 +58,18 @@
    border-radius: 50px;
  }
 
+ h3{
+   text-align: center;
+    color:rgb(150, 191, 159);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 
+                -1px -1px 0 rgb(57, 104, 70),
+                1px -1px 0 rgb(57, 104, 70),
+                -1px 1px 0 rgb(57, 104, 70),
+                1px 1px 0 rgb(57, 104, 70); /* Create an outline */
+    font-size: 500%;
+    Margin: 60px 0px;
+ }
 
  #img1 {
     width: 200px;
@@ -89,6 +101,27 @@
    margin-bottom: 200px;
 }
 
+#btn1{
+   background-color: rgb(112, 182, 112);
+   color: white;
+   cursor: pointer;
+   border-width: 0px;
+   padding-left: 15px;
+   padding-right: 15px;
+   border-radius: 10px;
+   margin-bottom: 200px;
+}
+
 #btn:hover {
    background-color: rgb(48, 122, 48);
+}
+
+.image {
+   float: right; /* Move image to the left side */
+   margin-right: 150px; /* Add some space between the image and the text */
+   width: 300px; /* Adjust image size */
+   margin-top: 50px;
+}
+.text-group {
+   overflow: hidden; /* Ensure text flows properly around the image */
 }

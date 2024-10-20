@@ -19,26 +19,29 @@ p {
   color: rgb(85, 85, 85);
 }
 
+h3 {
+  font-size: 5rem;
+  text-transform: capitalize;
+  text-align: center;
+  color: rgb(15, 138, 15);
+  border-bottom: 6px solid rgb(5, 118, 35);
+  background-color: rgb(180, 249, 160);
+}
+
+
 
 
 nav {
-    display: inline-block;
+  display: flex;
+  overflow: hidden;
   justify-content: space-around;
-  align-items: center;
-  height: 17vh;
-}
-
-.nav-links{
-    background-color: rgb(103, 204, 90);
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
+  height: auto;
+  background: rgb(0,178,53);
 }
 
 .nav-links a {
-    float: left;
-    display: block;
+    
+    display: inline-block;
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 14px 16px;
@@ -47,7 +50,7 @@ nav {
 }
 
 .nav-links a:hover {
-    background-color: rgb(112, 172, 102);
+    background-color: rgb(62, 104, 55);
     color: black;
 
 }
@@ -66,6 +69,17 @@ section {
     min-height: fit-content;
   }
   
-  .section-container {
+.section-container {
     display: flex;
   }
+
+
+
+.image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+}
+
